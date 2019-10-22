@@ -3,26 +3,29 @@
   
     /* The wrapper's width will be 600px */
     .wrapper {
-      width: 600px;
+      width: 480px;
       padding: 50px;
       margin-left: auto;
       margin-right: auto;
     }
-    #main-content{
-      margin-bottom: 50px;
+    
+    img#resize{
+    width: 300px;
+    height: 400px;
     }
   }
+  
   .image{
-      padding: 10px;
+    padding: 10px;
     margin-right: 10px;
   }
-/* image css to allow text over image */
+/* image css to allow text over image for portfolio links */
   .imgCaption{
     position: relative;
   }
   .caption{
-      position: absolute;
-      top: 70%;
+    position: absolute;
+    top: 70%;
     left: 35%;
     width: 100%;
   }
