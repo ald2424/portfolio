@@ -51,25 +51,40 @@
   .imgCaption{
     position: relative;
   }
+  /* wording on the portfolio links */
   .caption{
     position: absolute;
     top: 70%;
     left: 35%;
     width: 100%;
   }
+  /* wording for "rock paper scissor" since the name is longer */
   .caption2{
       position: absolute;
       top: 70%;
       left: 20%;
       width: 100%;
   }
-  .float{
-      float: right;
-  }
-  .main{
-    border: 2px solid black;
+  /* Header CSS */
+  .head{
     width: 50%;
     margin: 0 auto;
   }
+  /* First container that includes the background image */
+  .container-fluid{
+    background-image: url("../images/background1.png");
+   
+}
+/* Nested container that will contain all of the content */
+.container{
+  border: 2px solid #dddddd;
+  background: #ffffff;
+  
+  
+}
+/* Adds a border bottom to heading of page ("About Me", "Contact", "Portfolio") */
+.my-border{
+  border-bottom:2px solid #dddddd;
+}
 
   
