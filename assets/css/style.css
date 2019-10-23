@@ -8,10 +8,38 @@
       margin-left: auto;
       margin-right: auto;
     }
-    
+    /* Makes my profile picture bigger on a smaller screen */
     img#resize{
     width: 300px;
     height: 400px;
+    }
+/* unwraps paragraphs on small screen */
+    .unwrap{
+        margin: 100px;
+    }
+    /* aligns text in center on smaller screen */
+    .align{
+      text-align: center;
+    }
+    /* aligns nav links in center */
+    .navLinks{
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    /* aligns nav links in center */
+    .navLinks{
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    /* aligns text in center on smaller screen */
+    .align{
+      text-align: center;
+      margin: auto;
     }
   }
   
@@ -35,3 +63,13 @@
       left: 20%;
       width: 100%;
   }
+  .float{
+      float: right;
+  }
+  .main{
+    border: 2px solid black;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  
