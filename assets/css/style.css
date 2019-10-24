@@ -8,11 +8,7 @@
       margin-left: auto;
       margin-right: auto;
     }
-    /* Makes my profile picture bigger on a smaller screen */
-    img#resize{
-    width: 300px;
-    height: 400px;
-    }
+    
 /* unwraps paragraphs on small screen */
     .unwrap{
         margin: 100px;
@@ -44,8 +40,10 @@
   }
   
   .image{
-    padding: 10px;
-    margin-right: 10px;
+    padding: 11px;
+    margin-right: 7px;
+    margin-left: 35px;
+    margin-top: 40px;
   }
 /* image css to allow text over image for portfolio links */
   .imgCaption{
