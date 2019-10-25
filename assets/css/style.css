@@ -39,12 +39,6 @@
     }
   }
   
-  .image{
-    padding: 11px;
-    margin-right: 7px;
-    margin-left: 35px;
-    margin-top: 40px;
-  }
 /* image css to allow text over image for portfolio links */
   .imgCaption{
     position: relative;
@@ -84,5 +78,8 @@
 .my-border{
   border-bottom:2px solid #dddddd;
 }
-
+.nav-container{
+  
+  border: 3px solid black
+}
   
