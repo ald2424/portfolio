@@ -16,6 +16,7 @@
     /* aligns text in center on smaller screen */
     .align{
       text-align: center;
+      margin: 0 auto;
     }
     /* aligns nav links in center */
     .navLinks{
@@ -35,9 +36,10 @@
     /* aligns text in center on smaller screen */
     .align{
       text-align: center;
-      margin: auto;
     }
+    
   }
+
   
 /* image css to allow text over image for portfolio links */
   .imgCaption{
@@ -57,11 +59,7 @@
       left: 20%;
       width: 100%;
   }
-  /* Header CSS */
-  .head{
-    width: 50%;
-    margin: 0 auto;
-  }
+ 
   /* First container that includes the background image */
   .container-fluid{
     background-image: url("../images/background1.png");
@@ -69,7 +67,7 @@
 }
 /* Nested container that will contain all of the content */
 .container{
-  border: 2px solid #dddddd;
+  
   background: #ffffff;
   
   
@@ -78,8 +76,11 @@
 .my-border{
   border-bottom:2px solid #dddddd;
 }
-.nav-container{
-  
-  border: 3px solid black
+
+/* the next two classes are to remove the whitespace between the header and the background container */
+.touch-top{
+  margin-top: -1rem;
 }
-  
+.touch-bottom{
+  margin-bottom: -1rem;
+}
