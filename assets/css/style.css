@@ -55,11 +55,13 @@
   /* First container that includes the background image */
   .container-fluid{
     background-image: url("../images/background1.png"); 
+    padding: 0;
 }
 /* Nested container that will contain all of the content */
 .container{
   
   background: #ffffff;
+  
 
   
   
