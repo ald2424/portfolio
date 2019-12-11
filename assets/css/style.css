@@ -57,7 +57,7 @@ body{
   .caption{
     position: absolute;
     bottom: 20px;
-    width: 100%;
+    
   }
  
   /* First container that includes the background image */
@@ -93,6 +93,9 @@ body{
 }
 .bColor{
   background-color: #4aaaa5;
+}
+.width350{
+  width: 350px;
 }
 
 
