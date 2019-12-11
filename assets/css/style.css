@@ -1,3 +1,11 @@
+html{
+  height: 100%;
+}
+body{
+  min-height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
 @media screen and (max-width: 640px) {
    
   
@@ -53,12 +61,14 @@
   }
  
   /* First container that includes the background image */
-  .container-fluid{
+  .container-bg{
     background-image: url("../images/background1.png"); 
     padding: 0;
+    
 }
+
 /* Nested container that will contain all of the content */
-.container{
+.containerB{
   
   background: #ffffff;
   
@@ -78,4 +88,7 @@
 .touch-bottom{
   margin-bottom: -1rem;
 }
+
+
+
 
