@@ -1,9 +1,12 @@
 # portfolio
+<br>
+https://ald2424.github.io/portfolio/
+<br>
 This portfolio was created using bootstrap classes to make each page and the images responsive using only a minimal amount of media queries.
 
 Each page has two containers.  The first container, container-fluid, is used to place a background image around my nested container which holds all of the content.
  
-My About Me page contains two rows. The first row is my title "About Me".  This row consists of one column.  The second row also consists of one column and contains my image and my paragraphs. I chose to 
+My About Me page contains two rows. The first row is my title "About Me" and links to my resume, github page, and linkin profile.  This row consists of one column.  The second row also consists of one column and contains my image and my paragraphs. I chose to 
 put my image and my paragraphs inside the same column as opposed to making two seperate columns so that the paragraphs would wrap around the image on larger screens.  On smaller screens, I used a media query
 class to unwrap my paragraphs so that the image can sit ontop of the paragraphs.  I used the Bootstrap img-fluid class to make the image adjust when the page is viewed on a smaller screen.
 
