@@ -1,4 +1,7 @@
 # portfolio
+<br>
+https://ald2424.github.io/portfolio/
+<br>
 This portfolio was created using bootstrap classes to make each page and the images responsive using only a minimal amount of media queries.
 
 Each page has two containers.  The first container, container-fluid, is used to place a background image around my nested container which holds all of the content.
