@@ -88,7 +88,12 @@ body{
 .touch-bottom{
   margin-bottom: -1rem;
 }
-
+.fColor{
+ color: #4aaaa5
+}
+.bColor{
+  background-color: #4aaaa5;
+}
 
 
 
